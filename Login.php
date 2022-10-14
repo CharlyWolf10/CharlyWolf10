@@ -10,37 +10,111 @@
     <title>Iniciar Sesion</title>
 </head>
 <body>
-    <div>
+<div class="div" >
 
-        <div class="container m-5 my-5 mt-5">
-            <div class="row m-5" >
-                <div class="col m-5">
-                    <form>
-                        <div class="container m-5">
-                            <form>
-                              <div class="form-group text-center">
-                                <label for="usr">Usuario:</label>
-                                <input type="text " class="form-control align-bottom text-center" placeholder="Usuario" id="usr">
-                              </div>
-                              <div class="form-group text-center">
-                                <label for="pwd" >Contraseña:</label>
-                                <input type="password" class="form-control text-center" placeholder="Contraseña" id="pwd">
-                              </div>
-                              <div class="align-content-center">
-                                <button type="submit" class="btn btn-primary align-content-lg-center cent" id="log">Ingreso</button>
-                              </div>
-                            </form>
-                          </div>
-                      </form>
-                </div>
-                <div class="col m-5">
-                    <div class="container m5">
-                        <h2 class="text-center">Image</h2>
-                        <img class="img-responsive align-content-center" src="img_chania.jpg" alt="Chania" width="460" height="345"> 
-                      </div>
-                </div>
-            </div>
+  <!-- -->
+  <div class="container  my-5 mt-5 mb-5">
+
+    <!--Imagen y Login-->
+    <div class="jumbotron row mb-5">
+
+      <!-- login-->
+      <div class="col-7 mb-2 mt-1">
+
+        <div class="col-10">
+
+
+        <!--Div formulario-->
+        <div class="form mb-5 mt-5 my-5">
+          <h1 class="text-center">Iniciar sesión</h1>
+          <p class="lead mb-5 text-center">Bienvenidos <br>
+          Para iniciar sesión favor de ingresar usuario y contraseña</p>
+          <div class="form-group mt-3">
+            <label for="usr">Nombre:</label>
+            <input type="text" class="form-control mb-5" id="usr">
+          </div>
+          <div class="form-group ">
+            <label for="pwd">Contraseña:</label>
+            <input type="password" class="form-control mb-5" id="pwd">
+          </div>
+          <div>
+            <div class="btn-primary text-center btn-lg">Inicio</div>
+          </div>
+
         </div>
+        <!--Fin div Formulario-->
+        </div>
+
+
+
+      </div>
+      <!--fin div login-->
+
+
+      <!--Imagen-->
+      <div class="container-xxl col-5 mb-5 mt-5 align-content-lg-end">
+        <div class="mt-5 my-5">
+           <img src="Img/Avatar.png"  class="rounded float-end " alt="" srcset="" >
+        </div>
+        
+      </div>
+      <!--Fin Div Imagen-->
+
+
     </div>
+    <!--Fin div Imagen y Login-->
+
+  </div>
+  <!--Fin Div-->
+
+  <!--DivTexto-->
+  <div class="jumbotron mb-5 mt-5 my-5 align-content-between">
+    
+    <!--Texto-->
+    <div class="row">
+      <div class="col-4">
+        <h2 class="text-center">Misión</h2>
+        <p class="text-justify text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Quis exercitationem cum sint laudantium sequi. 
+          Molestiae repellendus at odit itaque quis sint tempore 
+          maxime incidunt ipsa, vero illum, beatae, alias dolor.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+          Quis exercitationem cum sint laudantium sequi. 
+          Molestiae repellendus at odit itaque quis sint tempore 
+          maxime incidunt ipsa, vero illum, beatae, alias dolor.
+        </p>
+      </div>
+      <div class="col">
+        <h2 class="text-center">Visión</h2>
+        <p class="text-justify text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Quis exercitationem cum sint laudantium sequi. 
+          Molestiae repellendus at odit itaque quis sint tempore 
+          maxime incidunt ipsa, vero illum, beatae, alias dolor. <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Quis exercitationem cum sint laudantium sequi. 
+          Molestiae repellendus at odit itaque quis sint tempore 
+          maxime incidunt ipsa, vero illum, beatae, alias dolor.
+        </p>
+      </div>
+      <div class="col">
+        <h2 class="text-center">Objetivo</h2>
+        <p class="text-justify text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Quis exercitationem cum sint laudantium sequi. 
+          Molestiae repellendus at odit itaque quis sint tempore 
+          maxime incidunt ipsa, vero illum, beatae, alias dolor.<br>
+          Quis exercitationem cum sint laudantium sequi. 
+          Molestiae repellendus at odit itaque quis sint tempore 
+          maxime incidunt ipsa, vero illum, beatae, alias dolor.
+        </p>
+      </div>
+    </div>
+    
+  </div>
+
+</div>
+
 </body>
 </html>
