@@ -1,0 +1,23 @@
+:root{
+    --prymary: #111854;
+    --Ligth: #ffffff;
+    --gray: #efefef;
+}
+body{
+    overflow: hidden;
+    font-family: 'Muli', sans-serif ;
+    font-weight: 300;
+    color: var(--prymary);
+}
+
+#sidebar-container{
+    min-height: 100vh;
+}
+
+#sidebar-container .logo{
+   padding: .875rem  1.25rem; 
+}
+
+#sidebar-container .menu{
+    width: 10rem;
+}
