@@ -13,6 +13,9 @@ body{
 #sidebar-container{
     min-height: 100vh;
 }
+-bg-prymary{
+    background-color: var(--prymary) !important;
+}
 
 #sidebar-container .logo{
    padding: .875rem  1.25rem; 
