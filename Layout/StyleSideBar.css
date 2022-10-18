@@ -1,20 +1,24 @@
 :root{
-    --prymary: #111854;
+    --prymary: #090a0f;
     --Ligth: #ffffff;
-    --gray: #efefef;
+    --grey: #efefef;
 }
-body{
+
+
+#body{
     overflow: hidden;
     font-family: 'Muli', sans-serif ;
     font-weight: 300;
-    color: var(--prymary);
+    color: var(--primary);
 }
 
 #sidebar-container{
     min-height: 100vh;
 }
--bg-prymary{
-    background-color: var(--prymary) !important;
+
+
+#bg-primary{
+    background-color: var(--primary) !important;
 }
 
 #sidebar-container .logo{
